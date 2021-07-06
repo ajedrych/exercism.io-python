@@ -1,4 +1,6 @@
 def is_armstrong_number(number):
+
+    #convert int to list
     number_converted = list(map(int, str(number)))
     sum = 0
 
