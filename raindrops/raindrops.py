@@ -3,7 +3,7 @@ def convert(number):
     raindrops = ''
 
     if number % 3 == 0:
-        raindrops = raindrops + 'Pling'
+        raindrops += 'Pling'
 
     if number % 5 == 0:
         raindrops += 'Plang'
@@ -11,5 +11,5 @@ def convert(number):
     if number % 7 == 0:
         raindrops += 'Plong'
 
-    return raindrops or f'{number}'
+    return str(raindrops or number)
 
