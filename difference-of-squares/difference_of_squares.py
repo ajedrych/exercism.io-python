@@ -3,7 +3,7 @@ from typing import Counter
 
 def square_of_sum(number):
     counter_square_of_sum = 0
-    for i in range(1, number + 1):
+    for i in range(1, number + 1 ):
         counter_square_of_sum += i
     return counter_square_of_sum ** 2
 
