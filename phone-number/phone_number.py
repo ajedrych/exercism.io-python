@@ -20,8 +20,7 @@ class PhoneNumber:
             raise ValueError
 
         self.number = ''.join([str(j) for j in phone])
-        self.area_code = self.number[0:2]
+        self.area_code = self.number[0:3]
 
     def pretty(self):
         return "(" + self.number[0:3] + ")-" + self.number[3:6] + "-" + self.number[6:]
-        
