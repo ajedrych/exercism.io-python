@@ -1,6 +1,3 @@
-from typing import final
-
-
 def primes(limit):
     numbers = []
     final = []
