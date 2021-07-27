@@ -1,9 +1,8 @@
 def commands(number):
     number = bin(number)
     number = number.replace("b", "0")
-    print(number)
+    
     result = []
-
     if number[-1] == "1":
         result.append("wink")
     if number[-2] == "1":
@@ -14,6 +13,5 @@ def commands(number):
         result.append("jump")
     if len(number) > 5 and number[-5] == "1":
         result.reverse()
-    print(result)
     return result
 
